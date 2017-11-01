@@ -220,3 +220,6 @@ $clear_codebg: #424242
 
     &[data-template~="clear"]
       +color-template($clear_bg, $clear_text, $clear_code, $clear_codebg)
+      
+    &[data-template~="invert-clear"]
+      +color-template($clear_text, $clear_bg, $clear_codebg, $clear_code)
